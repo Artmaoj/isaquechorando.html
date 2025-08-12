@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color:rgb(87, 59, 187);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: blue;
+}
+body{
+    background-color: black;
+}
+h3{
+    color:blue;
+}
