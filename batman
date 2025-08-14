@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="starman.css">
+    <title>Batman </title>
+</head>
+<body>
+<nav>
+        <ul>
+            <li><a href="index.html">INICIO</a> </li>
+            <li><a href="http://supermanhomepage.com/">SOBRE</a></li>
+            <li><a href="dlbck.html">CONTATOS</a></li>
+            <li><a href="batman.html">NOTICIAS</a></li>
+        </ul>
+    </nav>
+    <h1>Batman é encontrado morto na rua 3321 </h1>
+        <img src="https://falaanimal.com.br/wp-content/uploads/2021/12/batmanmorto_17122021.jpg">
+</body>
+
+
