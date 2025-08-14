@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 60px;
+            background-color: rgb(255, 166, 0);
+        }
+
+
+    </style>
+    <title>Os melhores</title>
+</head>
+<body>
+    <h1> Melhores pilotos da f1 Da Década</h1>
+    <nav>
+        <ul>
+            <var>
+            <li><a href="https://www.formula1.com/en/drivers/lewis-hamilton"> 1° Lewis Hamilton </a> </li>
+            <li><a href="https://www.formula1.com/en/drivers/max-verstappen"> 2° Max Max Verstappen</a> </li>
+            <li><a href="https://www.formula1.com/en/information/drivers-hall-of-fame-sebastian-vettel.GBy6vPkxKOKUV89QOhZe5"> 3° Sebastian Vettel</a> </li>
+            <li><a href="https://www.formula1.com/en/drivers/charles-leclerc"> 4° Charles Leclerc</a> </li>
+            <li><a href=" https://www.formula1.com/en/drivers/lando-norris"> 5° Lando Norris</a> </li>
+
+    </var>
+
+    <h1><a href="indexnovo.html"> Menção Honrosa </a></h1>
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+<!DOCTYPE html>
+
+<Body>
+</var>
+
+    <h1> Menção Honrosa </h1>
+    <h3> Daniel Ricciardo</h3>
+    <nav>
+        <ul>
+            <li> <a href="https://en.wikipedia.org/wiki/Daniel_Ricciardo"> Daniel Ricciardo</a></li>
+        </ul>
+    </nav>
+
+
+        </ul>
+    </nav>
+    </Body>
+
+
+
+
+
