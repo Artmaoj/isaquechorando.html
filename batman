@@ -4,7 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="starman.css">
+     <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+        }
+        li{
+            display: inline;
+            padding: 2%;
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        li a:hover{
+            background-color: darkcyan;
+        }
+     </style>
     <title>Batman </title>
 </head>
 <body>
@@ -19,5 +39,3 @@
     <h1>Batman é encontrado morto na rua 3321 </h1>
         <img src="https://falaanimal.com.br/wp-content/uploads/2021/12/batmanmorto_17122021.jpg">
 </body>
-
-
