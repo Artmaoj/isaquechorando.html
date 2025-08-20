@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      
+        .menuprincipal{
+            list-style-type: none;
+            margin: 0; 
+            padding: 0; 
+            background-color: rgb(119, 42, 42);
+            border: 2px solid black; 
+        }
+
+        .menuprincipal li{
+            display: inline-block;
+            padding: 10px 20px; 
+            margin: 5px; 
+            border: 1px solid yellow; 
+        }
+
+        .menuprincipal li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 10px 15px; 
+            border: 1px dashed orange; 
+            display: inline-block;
+        }
+
+        .menuprincipal li a:hover{
+            background-color: rgba(249, 0, 0, 0.566);
+        }
+
+        <!-- Este é um comentário em HTML --
+        footer{
+            margin-top: 40px; 
+            padding: 20px; 
+            border: 2px solid #333;
+            background-color: rgb(50, 50, 50);
+            color: white;
+        }
+
+        .arx{
+            background-color: rgb(110, 26, 26);
+            padding: 10px; 
+            margin: 10px 0 0 0; 
+            border: 1px solid white;
+        }
+
+        .arx li{
+            margin: 5px 0; 
+            padding: 5px;
+        }
+
+        .arx li a{
+            color: white;
+            padding: 5px 10px;
+            border: 1px dotted white;
+        }
+
+        /* TEXTOS */
+        h1, h2, h3, h4, h5, p, ol {
+            margin: 20px; 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+        }
+
+  
+    </style>
+    <title>Nax</title>
+</head>
+<body>
+    <nav>
+        <ul class="menuprincipal">
+            <li><a href="index.html">INICIO</a> </li>
+            <li><a href="http://supermanhomepage.com/">SOBRE</a></li>
+            <li><a href="dlbck.html">CONTATOS</a></li>
+            <li><a href="batman.html">NOTICIAS</a></li>
+        </ul>
+    </nav>
+
+    <h1>At voluptatem porro quo natus illo qui explicabo quia. </h1>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <h2>A illo nihil ut voluptas quia in adipisci iste. </h2>
+    <p>Vel similique quaeHic ratione eum minus autem hic consequatur...</p>
+    <h3>33 suscipit cupiditate ut dignissimos debitis. </h3>
+    <p>Qui ratione nemo in expedita dolore...</p>
+    <h4>Et consequatur dolore sed voluptas fuga et molestias quae! </h4>
+    <p>Et quos nesciuntRem aliquid et mollitia repellendus...</p>
+    <ol>
+        <li>Sed maiores alias qui recusandae sunt...</li>
+        <li>Aut debitis laborum et facere odit...</li>
+        <li>Et ratione internos 33 Quis voluptatem.</li>
+        <li>At fuga velit et architecto deserunt.</li>
+        <li>Id accusantium aperiam est quidem libero...</li>
+    </ol>
+    <h5>Ut rerum omnis et rerum voluptatem eos adipisci vero. </h5>
+    <p>Est odio quiaNon quasi ad odio dolores...</p>
+
+    <footer>
+        <p> Direitos © 2025 Nax. Todos os direitos reservados </p>
+        <nav>
+            <ul class="arx">
+                <li><a href="http://instagram.com/accounts/login/?next=%2Feminem%2F&source=omni_redirect">instagram</a></li>
+                <li><a href="http://youtube.com/channel/UCqjjyPUghDSSKFBABM_CXMw">youtube</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
