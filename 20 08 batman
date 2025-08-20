@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+        .erica{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+        .erica li{
+            display: inline;
+            padding: 2%;
+        }
+        .erica li a{
+            color: black;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .erica li a:hover{
+            background-color: violet;
+        }
+     </style>
+    <title>Batman </title>
+</head>
+<body>
+<nav>
+        <ul class="erica">
+            <li><a href="index.html">INICIO</a> </li>
+            <li><a href="http://supermanhomepage.com/">SOBRE</a></li>
+            <li><a href="conta.html">CONTATOS</a></li>
+            <li><a href="batman.html">NOTICIAS</a></li>
+        </ul>
+    </nav>
+    <h1>Batman é encontrado morto na rua 3321 </h1>
+        <img src="https://falaanimal.com.br/wp-content/uploads/2021/12/batmanmorto_17122021.jpg">
+</body>
