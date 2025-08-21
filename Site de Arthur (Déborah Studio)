@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>Studio Déborah Pereira</title>
+   <link rel="icon" type="image/png" href="c:\Users\user\Desktop\dplogo.png">
+   <link rel="stylesheet" href="style.css">
+
+<style>
+  h1 {
+    color:rgb(134, 24, 111);
+    font-size: 39px;
+    border: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(249, 255, 225);
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+  }
+
+  header {
+    color:rgb(134, 24, 111);
+    font-size: 39px;
+    border: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 2rem;
+  }
+
+</style>
+      <header>
+        Studio Deborah Pereira
+      </header>
+
+  <body>
+    
+    <p><body> Studio Déborah Pereira une saúde e beleza em cada atendimento. Mais do que estética, cada procedimento é pensado para valorizar a autoestima, respeitando a saúde da pele, dos fios e do corpo. Com técnicas modernas e seguras, o Studio transforma cuidados de beleza em bem-estar, trazendo confiança e equilíbrio para cada cliente.</p>
+  
+    <h1>Formação </h1>
+    <p> |Cabelo|Extensão de cílios|Design de Sobrancelha|Henna Labial | Brow </p>
+
+  
+    <h1> Tabela de valores</h1>
+    <p><body><h2>Cílios</h2></body></p>
+    <ul>
+      <li> Volume Brasileiro 95,00$ (Manutenção 75,00$)</li>
+      <li> Mega Brasileiro 125,00$ (Manutenção 90,00$)</li>
+      <li> Volume Egípcio 3D 135.00$ (Manutenão 95,00$)</li>
+      <li> Glamour 4D 150,00$ (Manutenção 100,00$)</li>
+      <li> Efeito Fox 160,00$ (Manutenção 120,00$)</li>
+      <li> Volume Luxo 170,00$ (Manutenção 120,00$)</li>
+    </ul>
+
+    <p><body><h2> Design de Sobrancelha</h2></body></p>
+    <ul>
+      <li>Design natural 25,00$ </li>
+        Um design de sobrancelha natural busca valorizar a forma e espessura dos fios existentes, sem alterá-lo drasticamente.
+        O objetivo é criar um visual mais harmonioso com o formato do seu rosto, destacando a beleza natural das suas sobrancelhas!
+
+      <li> Design com henna 30,00$</li>
+        O design de sobrancelhas com henna é uma técnica que combina a moldagem e o design das sobrancelhas com a aplicação de henna para preencher falhas, e dar mais cor, definição e realçar o seu olhar!
+
+      <li> Depilação de buço 15,00$</li>
+        A depilação a cera no buço é um método eficaz para remover os pelos, oferecendo resultados duradouros, pois os pelos são arrancados pela raiz!
+
+      <li> Brow/Natural 50,00$</li>
+
+      <li> Brow/Henna 70,00$</li>
+      </ul>
+      
+       <p><body><h2> Cabelos </h2></body></p>
+      <ul>
+      <li> Escova Ap/ 25,00</li>
+      <li> Tintura 25,00</li>
+      <li> Hidratação + Escova 50,00$</li>
+      <li> Hidratação 30,00$</li>
+      <li> Botox 80,00$</li>
+      <li> Progressiva Ap/ 100,00$</li>
+    </ul>
+  
+    <H1> Depoimento dos nosso clientes </H1>
+    <p>"Super recomendo, ela foi extremamente gentil" Luciana</p> 
+
+    <p>“Amei meus cílios! Ficaram leves e naturais. Atendimento impecável.” Ana</p>
+      
+    <p> “Ambiente limpo, organizado e acolhedor. Saí renovada.” Adrielly</p>
+
+    <h2> Agende já!</h2>
+
+  </body>
+
+</html>
