@@ -1,95 +1,186 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Studio Déborah Pereira</title>
-   <link rel="icon" type="image/png" href="c:\Users\user\Desktop\dplogo.png">
-   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="c:\Users\user\Desktop\dplogo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
-<style>
-  h1 {
-    color:rgb(134, 24, 111);
-    font-size: 39px;
-    border: 2px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  body {
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(249, 255, 225);
-    color: #000000;
-    font-family: "Raleway", sans-serif;
-  }
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #f9ffe1;
+      color: #333;
+      line-height: 1.6;
+      padding-bottom: 50px;
+    }
 
-  header {
-    color:rgb(134, 24, 111);
-    font-size: 39px;
-    border: 2px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 2rem;
-  }
+    header {
+      background-color: #ffe6ec;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2.5rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #eb143b;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
-</style>
-      <header>
-        Studio Deborah Pereira
-      </header>
+    .dados {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      background-color: pink;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
 
-  <body>
-    
-    <p><body> Studio Déborah Pereira une saúde e beleza em cada atendimento. Mais do que estética, cada procedimento é pensado para valorizar a autoestima, respeitando a saúde da pele, dos fios e do corpo. Com técnicas modernas e seguras, o Studio transforma cuidados de beleza em bem-estar, trazendo confiança e equilíbrio para cada cliente.</p>
-  
-    <h1>Formação </h1>
-    <p> |Cabelo|Extensão de cílios|Design de Sobrancelha|Henna Labial | Brow </p>
+    .dados li {
+      margin: 0 10px;
+    }
 
-  
-    <h1> Tabela de valores</h1>
-    <p><body><h2>Cílios</h2></body></p>
+    .dados a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #eb143b;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .dados a:hover {
+      background-color: violet;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #eb143b;
+      margin-top: 2rem;
+    }
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    img {
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: #f8d7dd;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #eb143b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Studio Déborah Pereira
+  </header>
+
+  <ul class="dados">
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Formações</a></li>
+    <li><a href="#">Valores</a></li>
+    <li><a href="#">Depoimentos</a></li>
+  </ul>
+
+  <main>
+
+    <p>O Studio Déborah Pereira une saúde e beleza em cada atendimento. Mais do que estética, cada procedimento é pensado para valorizar a autoestima, respeitando a saúde da pele, dos fios e do corpo. Com técnicas modernas e seguras, o Studio transforma cuidados de beleza em bem-estar, trazendo confiança e equilíbrio para cada cliente.</p>
+
+    <h1>Formação</h1>
+    <p>| Cabelo | Extensão de cílios | Design de Sobrancelha | Henna Labial | Brow |</p>
+
+    <h1>Tabela de valores</h1>
+
+    <h2>Cílios</h2>
     <ul>
-      <li> Volume Brasileiro 95,00$ (Manutenção 75,00$)</li>
-      <li> Mega Brasileiro 125,00$ (Manutenção 90,00$)</li>
-      <li> Volume Egípcio 3D 135.00$ (Manutenão 95,00$)</li>
-      <li> Glamour 4D 150,00$ (Manutenção 100,00$)</li>
-      <li> Efeito Fox 160,00$ (Manutenção 120,00$)</li>
-      <li> Volume Luxo 170,00$ (Manutenção 120,00$)</li>
+      <li>Volume Brasileiro - R$ 95,00 (Manutenção R$ 75,00)</li>
+      <img src="https://gmcilios.com.br/wp-content/uploads/2023/05/MEGA-VOLUME-BRASILEIRO-rotated.jpeg" width="170" height="130" alt="Volume Brasileiro">
+      <li>Mega Brasileiro - R$ 125,00 (Manutenção R$ 90,00)</li>
+      <li>Volume Egípcio 3D - R$ 135,00 (Manutenção R$ 95,00)</li>
+      <li>Glamour 4D - R$ 150,00 (Manutenção R$ 100,00)</li>
+      <li>Efeito Fox - R$ 160,00 (Manutenção R$ 120,00)</li>
+      <li>Volume Luxo - R$ 170,00 (Manutenção R$ 120,00)</li>
     </ul>
 
-    <p><body><h2> Design de Sobrancelha</h2></body></p>
+    <h2>Design de Sobrancelha</h2>
     <ul>
-      <li>Design natural 25,00$ </li>
-        Um design de sobrancelha natural busca valorizar a forma e espessura dos fios existentes, sem alterá-lo drasticamente.
-        O objetivo é criar um visual mais harmonioso com o formato do seu rosto, destacando a beleza natural das suas sobrancelhas!
+      <li>Design natural - R$ 25,00</li>
+      <p>Um design de sobrancelha natural busca valorizar a forma e espessura dos fios existentes, criando um visual mais harmonioso com o formato do seu rosto.</p>
 
-      <li> Design com henna 30,00$</li>
-        O design de sobrancelhas com henna é uma técnica que combina a moldagem e o design das sobrancelhas com a aplicação de henna para preencher falhas, e dar mais cor, definição e realçar o seu olhar!
+      <li>Design com henna - R$ 30,00</li>
+      <p>A técnica com henna preenche falhas, dá mais definição e realça seu olhar.</p>
 
-      <li> Depilação de buço 15,00$</li>
-        A depilação a cera no buço é um método eficaz para remover os pelos, oferecendo resultados duradouros, pois os pelos são arrancados pela raiz!
+      <li>Depilação de buço - R$ 15,00</li>
+      <p>Método eficaz com cera para resultados duradouros.</p>
 
-      <li> Brow/Natural 50,00$</li>
-
-      <li> Brow/Henna 70,00$</li>
-      </ul>
-      
-       <p><body><h2> Cabelos </h2></body></p>
-      <ul>
-      <li> Escova Ap/ 25,00</li>
-      <li> Tintura 25,00</li>
-      <li> Hidratação + Escova 50,00$</li>
-      <li> Hidratação 30,00$</li>
-      <li> Botox 80,00$</li>
-      <li> Progressiva Ap/ 100,00$</li>
+      <li>Brow Natural - R$ 50,00</li>
+      <p>valoriza o formato natural dos fios, sem mudanças drásticas.</p>
+      <li>Brow com Henna - R$ 70,00</li>
+      <p>combinada com aplicação de henna, que preenche falhas, dá cor e definição, deixando o olhar mais marcante e duradouro.</p>
     </ul>
-  
-    <H1> Depoimento dos nosso clientes </H1>
-    <p>"Super recomendo, ela foi extremamente gentil" Luciana</p> 
 
-    <p>“Amei meus cílios! Ficaram leves e naturais. Atendimento impecável.” Ana</p>
-      
-    <p> “Ambiente limpo, organizado e acolhedor. Saí renovada.” Adrielly</p>
+    <h2>Cabelos</h2>
+    <ul>
+      <li>Escova - R$ 25,00</li>
+      <li>Tintura - R$ 25,00</li>
+      <li>Hidratação + Escova - R$ 50,00</li>
+      <li>Hidratação - R$ 30,00</li>
+      <li>Botox - R$ 80,00</li>
+      <li>Progressiva - R$ 100,00</li>
+    </ul>
 
-    <h2> Agende já!</h2>
+    <h1>Depoimentos dos nossos clientes</h1>
+    <p>"Super recomendo, ela foi extremamente gentil" — Luciana</p>
+    <p>“Amei meus cílios! Ficaram leves e naturais. Atendimento impecável.” — Ana</p>
+    <p>“Ambiente limpo, organizado e acolhedor. Saí renovada.” — Adrielly</p>
 
-  </body>
+    <h2>Agende já!</h2>
+    <p>📱 WhatsApp: <strong><a href="https://wa.me/5538997409582" target="_blank">Fale conosco no WhatsApp</a>
+</strong></p>
 
+  </main>
+
+  <footer>
+    <h2>Veja mais do nosso trabalho</h2>
+    <a href= "https://www.instagram.com/studio_deborahpereira/" target="_blank">Instagram</a>
+  </footer>
+
+</body>
 </html>
