@@ -1,0 +1,58 @@
+header{
+ background-position: center;
+ font-family:Arial, Helvetica, sans-serif;
+ text-align: center;
+ padding:20px;
+position: relative;
+}
+header .figurinha{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+}
+
+
+.menuprincipal{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: #B59F92;
+}
+.menuprincipal li{
+    display:inline;
+    padding: 2%;
+}
+.menuprincipal li a{
+    color: black;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+}
+.menuprincipal li a:hover{
+    background-color: #565551;
+}
+
+
+.imagens {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+}
+.imagens img {
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2), -4px -4px 15px rgba(0, 0, 255, 0.2);
+}
+.imagens img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.titulo{
+    font-size: x-large;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
