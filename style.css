@@ -1,23 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif
+}
+
+/*Personalizando body*/
+body{
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    line-height: 1.4;  
+}
+
+/*header personalizado*/
 header{
  background-position: center;
  font-family:Arial, Helvetica, sans-serif;
  text-align: center;
  padding:20px;
-position: relative;
+ border-bottom: 3px solid #e6e6e6;
 }
 header .figurinha{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #e6a27e;
+}
+header h1{
+     font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #8b4a2f;
+}
+header p{
+    font-size: 1.2rem;
+    color: #5a3320;
 }
 
-
-.menuprincipal{
+/*menu personalizado*/
+    .menuprincipal{
     list-style-type: none;
     margin:0;
     padding:0;
     background-color: #B59F92;
+    text-align: center;
 }
 .menuprincipal li{
     display:inline;
@@ -33,6 +60,33 @@ header .figurinha{
     background-color: #565551;
 }
 
+/*sessão personalizada*/
+section {
+    text-align: center;
+    padding: 20px;
+    max-width: 900px;
+    border-top: 2px;
+    margin: 0 auto 40px auto;
+}
+
+section h2.titulo {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #8b4a2f;
+    margin-top: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #5a3320;
+}
+
+
+section ul {
+    list-style: disc;
+    margin-top: 10px;
+    color: #5a3320;
+}
 
 .imagens {
     display: flex;
@@ -55,4 +109,60 @@ header .figurinha{
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+
+.sobrenos {
+    font-size: small;
+}
+
+
+footer a{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    color:#8b4a2f;
+}
+
+@media screen and (max-width: 768px) {
+    div.imagens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul.menuprincipal {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/*formulario personalizado*/
+form.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #e6a27e;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e6a27e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #d78c62;
 }
