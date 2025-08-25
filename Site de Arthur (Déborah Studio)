@@ -16,7 +16,7 @@
 
     body {
       font-family: 'Raleway', sans-serif;
-      background-color: #f9ffe1;
+      background-color: #fbeeff;
       color: #333;
       line-height: 1.6;
       padding-bottom: 50px;
@@ -28,7 +28,7 @@
       text-align: center;
       font-size: 2.5rem;
       font-family: Georgia, 'Times New Roman', Times, serif;
-      color: #eb143b;
+      color: #cd67ec;
       margin-bottom: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
@@ -37,7 +37,7 @@
       list-style-type: none;
       display: flex;
       justify-content: center;
-      background-color: pink;
+      background-color: rgb(245, 178, 242);
       padding: 1rem;
       flex-wrap: wrap;
     }
@@ -50,13 +50,13 @@
       color: white;
       text-decoration: none;
       padding: 10px 20px;
-      background-color: #eb143b;
+      background-color: #ac3cce;
       border-radius: 5px;
       transition: background-color 0.3s;
     }
 
     .dados a:hover {
-      background-color: violet;
+      background-color: rgb(236, 159, 255);
     }
 
     main {
@@ -66,7 +66,7 @@
     }
 
     h1, h2 {
-      color: #eb143b;
+      color: #ac3cce;
       margin-top: 2rem;
     }
 
@@ -79,8 +79,8 @@
     }
 
     img {
-      border-radius: 10px;
-      margin-top: 10px;
+      border-radius: 60px;
+      margin-top: 05px;
     }
 
     p {
@@ -113,8 +113,8 @@
   </header>
 
   <ul class="dados">
-    <li><a href="#">Sobre</a></li>
-    <li><a href="#">Formações</a></li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
     <li><a href="#">Valores</a></li>
     <li><a href="#">Depoimentos</a></li>
   </ul>
@@ -123,7 +123,7 @@
 
     <p>O Studio Déborah Pereira une saúde e beleza em cada atendimento. Mais do que estética, cada procedimento é pensado para valorizar a autoestima, respeitando a saúde da pele, dos fios e do corpo. Com técnicas modernas e seguras, o Studio transforma cuidados de beleza em bem-estar, trazendo confiança e equilíbrio para cada cliente.</p>
 
-    <h1>Formação</h1>
+    <h1>Serviços</h1>
     <p>| Cabelo | Extensão de cílios | Design de Sobrancelha | Henna Labial | Brow |</p>
 
     <h1>Tabela de valores</h1>
@@ -133,10 +133,15 @@
       <li>Volume Brasileiro - R$ 95,00 (Manutenção R$ 75,00)</li>
       <img src="https://gmcilios.com.br/wp-content/uploads/2023/05/MEGA-VOLUME-BRASILEIRO-rotated.jpeg" width="170" height="130" alt="Volume Brasileiro">
       <li>Mega Brasileiro - R$ 125,00 (Manutenção R$ 90,00)</li>
+      <img src="https://imgs.search.brave.com/n2mhhqf8VEq-LODrP_dXUlGJS3CQNO8exVqDFF-9_I0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nbWNp/bGlvcy5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDUvTUVHQS1WT0xV/TUUtQlJBU0lMRUlS/Ty0yLmpwZw"width="170" height="130">
       <li>Volume Egípcio 3D - R$ 135,00 (Manutenção R$ 95,00)</li>
+      <img src=""width="170" height="130">
       <li>Glamour 4D - R$ 150,00 (Manutenção R$ 100,00)</li>
+      <img src="">
       <li>Efeito Fox - R$ 160,00 (Manutenção R$ 120,00)</li>
+      <img src="">
       <li>Volume Luxo - R$ 170,00 (Manutenção R$ 120,00)</li>
+      <img src="">
     </ul>
 
     <h2>Design de Sobrancelha</h2>
@@ -178,7 +183,7 @@
   </main>
 
   <footer>
-    <h2>Veja mais do nosso trabalho</h2>
+    <h2>Veja mais do nosso trabalho!</h2>
     <a href= "https://www.instagram.com/studio_deborahpereira/" target="_blank">Instagram</a>
   </footer>
 
