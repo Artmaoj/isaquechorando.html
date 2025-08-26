@@ -103,6 +103,31 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    .grid-cilios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.item-cilios img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ac3cce;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.item-cilios p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
   </style>
 </head>
 
@@ -128,38 +153,39 @@
 
     <h1>Tabela de valores</h1>
 
-    <h2>Cílios</h2>
-    <ul>
-      <li>Volume Brasileiro - R$ 95,00 (Manutenção R$ 75,00)</li>
-      <img src="https://gmcilios.com.br/wp-content/uploads/2023/05/MEGA-VOLUME-BRASILEIRO-rotated.jpeg" width="170" height="130" alt="Volume Brasileiro">
-      <li>Mega Brasileiro - R$ 125,00 (Manutenção R$ 90,00)</li>
-      <img src="https://imgs.search.brave.com/n2mhhqf8VEq-LODrP_dXUlGJS3CQNO8exVqDFF-9_I0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nbWNp/bGlvcy5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDUvTUVHQS1WT0xV/TUUtQlJBU0lMRUlS/Ty0yLmpwZw"width="170" height="130">
-      <li>Volume Egípcio 3D - R$ 135,00 (Manutenção R$ 95,00)</li>
-      <img src=""width="170" height="130">
-      <li>Glamour 4D - R$ 150,00 (Manutenção R$ 100,00)</li>
-      <img src="">
-      <li>Efeito Fox - R$ 160,00 (Manutenção R$ 120,00)</li>
-      <img src="">
-      <li>Volume Luxo - R$ 170,00 (Manutenção R$ 120,00)</li>
-      <img src="">
-    </ul>
-
+  
     <h2>Design de Sobrancelha</h2>
-    <ul>
-      <li>Design natural - R$ 25,00</li>
-      <p>Um design de sobrancelha natural busca valorizar a forma e espessura dos fios existentes, criando um visual mais harmonioso com o formato do seu rosto.</p>
+    <div class="grid-cilios">
+  <div class="item-cilios">
+    <img src="https://gmcilios.com.br/wp-content/uploads/2023/05/MEGA-VOLUME-BRASILEIRO-rotated.jpeg" alt="Volume Brasileiro">
+    <p><strong>Volume Brasileiro</strong><br>R$ 95,00 (Manutenção R$ 75,00)</p>
+  </div>
+  
+  <div class="item-cilios">
+    <img src="https://www.belezanaweb.com.br/static/images/site/Cilios-Mega-Volume.jpg" alt="Mega Brasileiro">
+    <p><strong>Mega Brasileiro</strong><br>R$ 125,00 (Manutenção R$ 90,00)</p>
+  </div>
 
-      <li>Design com henna - R$ 30,00</li>
-      <p>A técnica com henna preenche falhas, dá mais definição e realça seu olhar.</p>
+  <div class="item-cilios">
+    <img src="https://classic.exame.com/wp-content/uploads/2023/05/extensao-de-cilios-3d.jpg?quality=70&strip=info&w=1024" alt="Volume Egípcio 3D">
+    <p><strong>Volume Egípcio 3D</strong><br>R$ 135,00 (Manutenção R$ 95,00)</p>
+  </div>
 
-      <li>Depilação de buço - R$ 15,00</li>
-      <p>Método eficaz com cera para resultados duradouros.</p>
+  <div class="item-cilios">
+    <img src="https://img.freepik.com/fotos-premium/olho-com-cilios-4d_902639-12704.jpg" alt="Glamour 4D">
+    <p><strong>Glamour 4D</strong><br>R$ 150,00 (Manutenção R$ 100,00)</p>
+  </div>
 
-      <li>Brow Natural - R$ 50,00</li>
-      <p>valoriza o formato natural dos fios, sem mudanças drásticas.</p>
-      <li>Brow com Henna - R$ 70,00</li>
-      <p>combinada com aplicação de henna, que preenche falhas, dá cor e definição, deixando o olhar mais marcante e duradouro.</p>
-    </ul>
+  <div class="item-cilios">
+    <img src="https://img.freepik.com/fotos-premium/efeito-fox-nos-cilios_902639-12426.jpg" alt="Efeito Fox">
+    <p><strong>Efeito Fox</strong><br>R$ 160,00 (Manutenção R$ 120,00)</p>
+  </div>
+
+  <div class="item-cilios">
+    <img src="https://www.espacodcilios.com.br/uploads/images/volume-luxo.jpg" alt="Volume Luxo">
+    <p><strong>Volume Luxo</strong><br>R$ 170,00 (Manutenção R$ 120,00)</p>
+  </div>
+</div>
 
     <h2>Cabelos</h2>
     <ul>
