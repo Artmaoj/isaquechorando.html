@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Studio Déborah Pereira</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
@@ -65,8 +66,10 @@
     }
 
     h1, h2 {
-      color: #ac3cce;
+      color: #823699;
       margin-top: 2rem;
+      margin-bottom: 1rem;
+
     }
 
     p {
@@ -128,9 +131,9 @@
       width: 150px;
       height: 150px;
       object-fit: cover;
-      border-radius: 12px;
-      border: 3px solid #ffd7ef;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      border-radius: 50%;
+      border: 4px solid #ac3cce;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       margin-bottom: 10px;
     }
 
@@ -148,19 +151,12 @@
     Studio Déborah Pereira
   </header>
 
-  <ul class="dados">
-    <li><a href="#servicos">Serviços</a></li>
-    <li><a href="#valores">Valores</a></li>
-    <li><a href="#depoimentos">Depoimentos</a></li>
-    <li><a href="#contato">Contato</a></li>
-  </ul>
-
   <main>
 
     <p>O Studio Déborah Pereira une saúde e beleza em cada atendimento. Mais do que estética, cada procedimento é pensado para valorizar a autoestima, respeitando a saúde da pele, dos fios e do corpo. Com técnicas modernas e seguras, o Studio transforma cuidados de beleza em bem-estar, trazendo confiança e equilíbrio para cada cliente.</p>
 
     <h1 id="servicos">Serviços</h1>
-    <p>| Cabelo | Extensão de cílios | Design de Sobrancelha | Henna Labial | Brow |</p>
+    <p style="text-align:center;">| Cabelo | Extensão de cílios | Design de Sobrancelha | Henna Labial | Brow |</p>
 
     <h1 id="valores">Tabela de valores</h1>
 
@@ -195,11 +191,12 @@
         <img src=".vscode/volume luxo.jpeg" alt="Volume Luxo">
         <p>Volume Luxo<br>R$ 170,00 (Manutenção R$ 120,00)</p>
       </div>
+    </div> <!-- FECHANDO A GRID CÍLIOS -->
 
     <h2>Cabelos</h2>
     <div class="grid-cabelo">
       <div class="item-cabelo">
-        <img src="" alt="Escova">
+        <img src=".vscode/escovado.jpeg" alt="Escova">
         <p>Escova<br>R$ 25,00</p>
       </div>
 
@@ -214,7 +211,7 @@
       </div>
 
       <div class="item-cabelo">
-        <img src=".vscode/hidratacao.jpeg" alt="Hidratação">
+        <img src=".vscode/hidratado.jpeg" alt="Hidratação">
         <p>Hidratação<br>R$ 30,00</p>
       </div>
 
@@ -230,13 +227,16 @@
     <p>“Ambiente limpo, organizado e acolhedor. Saí renovada.” — Adrielly</p>
 
     <h2 id="contato">Agende já!</h2>
-    <p>📱 WhatsApp: <strong><a href="https://wa.me/5538997409582" target="_blank">Fale conosco no WhatsApp</a></strong></p>
+    <p style="text-align:center;">📱 WhatsApp: <strong><a href="https://wa.me/5538997409582" target="_blank">Agende seu horário!</a></strong></p>
 
   </main>
 
   <footer>
     <h2>Veja mais do nosso trabalho!</h2>
     <a href="https://www.instagram.com/studio_deborahpereira/" target="_blank">Instagram</a>
+    <ul class="dados">
+      <li><a href="#">Alguma sugestão? Fale conosco!</a></li>
+    </ul>
   </footer>
 
 </body>
