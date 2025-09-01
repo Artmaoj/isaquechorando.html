@@ -158,9 +158,9 @@
     <h1 id="servicos">Serviços</h1>
     <p style="text-align:center;">| Cabelo | Extensão de cílios | Design de Sobrancelha | Henna Labial | Brow |</p>
 
-    <h1 id="valores">Tabela de valores</h1>
+    <h1 id="valores">imagens e valores</h1>
 
-    <h2>Design de Sobrancelha</h2>
+    <h2>Design de Cílios</h2>
     <div class="grid-cilios">
       <div class="item-cilios">
         <img src="https://gmcilios.com.br/wp-content/uploads/2023/05/MEGA-VOLUME-BRASILEIRO-rotated.jpeg" alt="Volume Brasileiro">
@@ -178,7 +178,7 @@
       </div>
 
       <div class="item-cilios">
-        <img src=".vscode/glamuor.jpeg" alt="Glamour 4D">
+        <img src=".vscode/glamour4d.jpeg" alt="Glamour 4D">
         <p>Glamour 4D<br>R$ 150,00 (Manutenção R$ 100,00)</p>
       </div>
 
@@ -190,6 +190,21 @@
       <div class="item-cilios">
         <img src=".vscode/volume luxo.jpeg" alt="Volume Luxo">
         <p>Volume Luxo<br>R$ 170,00 (Manutenção R$ 120,00)</p>
+      </div>
+
+      <div class="item-cilios">
+        <img src="" alt="Design Natural">
+        <p>Design Natural<br>R$ 25,00</p>
+      </div>
+
+      <div class="item-cilios">
+        <img src="" alt="Design com Henna">
+        <p>Design com Henna<br>R$ 30,00</p>
+      </div>
+
+      <div class="item-cilios">
+        <img src="" alt="Depilação de Buço">
+        <p>Depilação de Buço<br>R$ 15,00</p>
       </div>
     </div> <!-- FECHANDO A GRID CÍLIOS -->
 
